@@ -5,7 +5,7 @@ import { AppComponent } from './app.component';
 const routes: Routes =[{
     path: '',
    children:[
-     {path:'',pathMatch:'full',redirectTo:'issue'},
+     {path:'',pathMatch:'full',redirectTo:'dashboard'},
      {path:'issue',loadChildren:'./pages/issue/issue.module#IssueModule'},
      {path:'dashboard',loadChildren:'./pages/dashboard/dashboard.module#DashboardModule'},
      {path:'project',loadChildren:'./pages/project/project.module#ProjectModule'}
